@@ -55,7 +55,7 @@ ROOT_URLCONF = 'project_labaya.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/templates/app_labaya/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
